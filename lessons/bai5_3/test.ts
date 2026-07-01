@@ -1,7 +1,8 @@
 import { ethers } from "ethers";
 
 async function main() {
-  const provider = new ethers.JsonRpcProvider("https://eth-sepolia.public.blastapi.io");
+  // Public Sepolia RPC – không cần API key
+  const provider = new ethers.JsonRpcProvider("https://ethereum-sepolia-rpc.publicnode.com");
 
   const abi = [
     "function getCount() public view returns (uint)",
