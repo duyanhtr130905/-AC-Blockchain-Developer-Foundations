@@ -42,6 +42,14 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Hardhat generated files
+artifacts/
+cache/
+typechain/
+typechain-types/
+deployments/
+ignition/deployments/chain-31337/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
